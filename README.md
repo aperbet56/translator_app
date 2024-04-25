@@ -6,7 +6,7 @@ Création d'une application permettant la traduction de texte. L'internaute peut
 
 ## Démonstration
 
-Lien vers le projet :
+Lien vers le projet : https://aperbet56.github.io/translator_app/
 
 ## Développez avec
 
