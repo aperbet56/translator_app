@@ -45,6 +45,7 @@ h1 {
     background-color : #fff;
     border-radius: 6px;
     padding: 1rem;
+    transition: box-shadow 0.3s ease-in-out;
 }
 
 .container:hover {
