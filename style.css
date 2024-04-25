@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+/*** Reset ****/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    list-style-type: none;
+    font-family: "Poppins", sans-serif;
+}
+
+/**** Style général de la page ****/
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #95e4e4; /*bae8e8*/
+}
+
+header, footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 15px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.main__content {
+    flex-grow: 1;
+    padding: 1rem;
+}
+
+.container {
+    background-color : #fff;
+    border-radius: 6px;
+    padding: 1rem;
+}
+
+.text__input {
+    display: flex;
+    border: 1px solid #bbbbbb;
+    border-radius: 6px;
+}
+
+.to__text {
+    border-radius: 0;
+    border-left: 1px solid #bbbbbb;
+}
+
+textarea {
+    height: 250px;
+    width: 100%;
+    resize: none;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: none;
+    padding: 10px 15px;
+}
+
+.controls, 
+li, 
+.icons,
+.icons i {
+    display: flex;  
+    align-items: center;
+    justify-content: space-between;
+}
+
+.controls {
+    padding: 12px 0;
+}
+
+.controls .row.from .icons {
+    padding-right: 15px;
+    border-right: 1px solid #bbbbbb;
+}
+
+.controls .row.to .icons {
+    padding-left: 15px;
+    border-left: 1px solid #bbbbbb;
+}
+
+.controls .icons {
+    width: 38%;
+}
+
+.controls .icons i {
+    width: 50px;
+    color: #9f9f9f;
+    font-size: 0.8rem;
+    cursor: pointer;
+    justify-content: center;
+}
+
+.controls .row select {
+    font-size: 1.4rem;
+    background-color: none;
+}
+
+.controls .exchange {
+    color: #9f9f9f;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+select {
+    margin: 0 10px;
+    width: 50%;
+    text-align: center;
+    font-size: 1rem;
+    background-color: #e8e9e9;
+}
+
+option {
+    font-size: 1rem;
+}
+
+button {
+    width: 100%;
+    padding: 14px;
+    margin: 20px 0;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    background-color: #ffd803;
+    color: #272343;
+}
+
+footer span {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+
+}
