@@ -144,3 +144,38 @@ footer span {
     font-weight: 500;
 
 }
+
+/**** Responsive design ****/
+
+@media screen and (max-width: 572px) {
+    .text__input {
+        flex-direction: column;
+    }
+    
+    .to__text {
+        border-left: 0;
+        border-top: 1px solid #bbbbbb;
+    }
+    
+    textarea {
+        height: 200px;
+    }
+    
+    .controls .row .icons {
+        display: none;
+    }
+
+    .controls .exchange {
+        font-size: 0.8rem;
+    }
+
+    select {
+        width: 100%;
+        font-size: 0.3rem;
+    }
+    
+    button {
+        padding: 0.8rem;
+        font-size: 1rem;
+    }
+}
